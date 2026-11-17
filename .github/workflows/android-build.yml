@@ -21,9 +21,9 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Set up Android SDK
+                - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-                with:
+        with:
           packages: 'platform-tools'
 
       - name: Set up Gradle 9.3.1
